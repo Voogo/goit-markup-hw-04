@@ -348,7 +348,8 @@ Fifth color: rgba(244, 244, 253, 1)
   margin-left: auto;
   margin-right: auto;
 
-  /* background-color: var(--navy-blue); */
+  background-color: var(--navy-blue);
+
   background-image: linear-gradient(
       to right,
       rgba(46, 47, 66, 0.7),
