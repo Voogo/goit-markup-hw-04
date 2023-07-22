@@ -345,9 +345,17 @@ Fifth color: rgba(244, 244, 253, 1)
   padding-top: 188px;
   padding-bottom: 188px;
 
-  background-color: var(--navy-blue);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.1)),
+  margin-left: auto;
+  margin-right: auto;
+
+  /* background-color: var(--navy-blue); */
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url("../images/people-office-one.jpg");
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
