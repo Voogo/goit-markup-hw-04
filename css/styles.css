@@ -399,10 +399,9 @@ Fifth color: rgba(244, 244, 253, 1)
   content: "";
 }
 
-/* .i-s-t-one {
+.i-s-t-one {
   background-image: url(../images/antenna1.svg);
-  
-} */
+}
 
 .i-s-t-two {
   background-image: url(../images/clock1.svg);
