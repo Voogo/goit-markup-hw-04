@@ -384,6 +384,32 @@ Fifth color: rgba(244, 244, 253, 1)
   color: var(--navy-blue);
 }
 
+.section-two-list .item::before {
+  display: block;
+  content: "";
+  /* width: 264px; */
+  height: 112px;
+  /* outline: 1px solid tomato; */
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+  /* background-image: url(../images/antenna1.svg); */
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.section-two-list .item:nth-child(1)::before {
+  background-image: url(../images/antenna1.svg);
+}
+.section-two-list .item:nth-child(2)::before {
+  background-image: url(../images/clock1.svg);
+}
+.section-two-list .item:nth-child(3)::before {
+  background-image: url(../images/diagram1.svg);
+}
+.section-two-list .item:nth-child(4)::before {
+  background-image: url(../images/astronaut1.svg);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -469,6 +495,46 @@ Fifth color: rgba(244, 244, 253, 1)
   text-align: center;
 }
 
+.icon {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: 5% 10%;
+  background-color: var(--iris, #4d5ae5);
+  background-position: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.first-person {
+  background-image: url(../images/instagram2.svg);
+  background-image: url(../images/twitter1.svg);
+  background-image: url(../images/facebook1.svg);
+  background-image: url(../images/linkedin1.svg);
+}
+.second-person {
+  background-image: url(../images/instagram2.svg);
+  background-image: url(../images/twitter1.svg);
+  background-image: url(../images/facebook1.svg);
+  background-image: url(../images/linkedin1.svg);
+}
+.third-person {
+  background-image: url(../images/instagram2.svg);
+  background-image: url(../images/twitter1.svg);
+  background-image: url(../images/facebook1.svg);
+  background-image: url(../images/linkedin1.svg);
+}
+.fourth-person {
+  background-image: url(../images/instagram2.svg);
+  background-image: url(../images/twitter1.svg);
+  background-image: url(../images/facebook1.svg);
+  background-image: url(../images/linkedin1.svg);
+}
 /* Footer */
 
 .footer-one {
@@ -509,9 +575,39 @@ Fifth color: rgba(244, 244, 253, 1)
 .footer-paragraph {
   width: 264px;
 
+  /* display: inline-block; */
+
   color: var(--cloud);
 }
 
+.f-list {
+  display: inline-block;
+}
+
+.instagram {
+  background-image: url(../images/instagram2.svg);
+}
+
+.twitter {
+  background-image: url(../images/twitter1.svg);
+}
+
+.facebook {
+  background-image: url(../images/facebook1.svg);
+}
+
+.linkdeln {
+  background-image: url(../images/linkedin1.svg);
+}
+
+.social-links {
+  margin-left: 120px;
+  display: inline-block;
+}
+
+.text-logo {
+  display: inline-block;
+}
 /* Portfolio */
 
 /* Section Portfolio One */
