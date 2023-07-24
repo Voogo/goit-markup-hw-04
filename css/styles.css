@@ -7,6 +7,8 @@
   --ocean: #404bbf;
   --white: #ffffff;
   --black: #000000;
+  --box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 body {
@@ -196,6 +198,7 @@ Fifth color: rgba(244, 244, 253, 1)
 .header {
   border-bottom: 1px solid var(--cornflower);
   display: flex;
+  box-shadow: var(--box-shadow);
 }
 
 .container.header {
@@ -342,6 +345,12 @@ Fifth color: rgba(244, 244, 253, 1)
 
 /* Section one */
 .section-one {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-one.jpg);
+  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
 
@@ -349,13 +358,6 @@ Fifth color: rgba(244, 244, 253, 1)
   margin-right: auto;
 
   background-color: var(--navy-blue);
-
-  background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url("../images/people-office-one.jpg");
 
   background-repeat: no-repeat;
   background-position: center;
@@ -380,24 +382,53 @@ Fifth color: rgba(244, 244, 253, 1)
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.icon-s-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background: var(--cloud, #f4f4fd);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  /* width: 64px; */
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* height: 64px; */
+  content: "";
+}
+
+.i-s-t-one {
+  background-image: url(../images/antenna1.svg);
+}
+
+.i-s-t-two {
+  background-image: url(../images/clock1.svg);
+}
+.i-s-t-three {
+  background-image: url(../images/diagram1.svg);
+}
+.i-s-t-four {
+  background-image: url(../images/astronaut1.svg);
+}
 .section-two-list .heading-three {
   color: var(--navy-blue);
 }
 
-.section-two-list .item::before {
+/* .section-two-list .item::before {
   display: block;
-  content: "";
+
   /* width: 264px; */
-  height: 112px;
-  /* outline: 1px solid tomato; */
-  border-radius: 4px;
-  background: var(--cloud, #f4f4fd);
-  /* background-image: url(../images/antenna1.svg); */
-  background-size: 64px;
+
+/* outline: 1px solid tomato; */
+
+/* background-image: url(../images/antenna1.svg); */
+/* background-size: 64px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-}
-.section-two-list .item:nth-child(1)::before {
+}  */
+/* .section-two-list .item:nth-child(1)::before {
   background-image: url(../images/antenna1.svg);
 }
 .section-two-list .item:nth-child(2)::before {
@@ -408,7 +439,7 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 .section-two-list .item:nth-child(4)::before {
   background-image: url(../images/astronaut1.svg);
-}
+} */
 
 .visually-hidden {
   position: absolute;
