@@ -383,7 +383,7 @@ Fifth color: rgba(244, 244, 253, 1)
   padding-bottom: 120px;
 }
 
-.icon-s-two {
+.icons {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -399,17 +399,17 @@ Fifth color: rgba(244, 244, 253, 1)
   content: "";
 }
 
-.i-s-t-one {
+.i-one {
   background-image: url(../images/antenna1.svg);
 }
 
-.i-s-t-two {
+.i-two {
   background-image: url(../images/clock1.svg);
 }
-.i-s-t-three {
+.i-three {
   background-image: url(../images/diagram1.svg);
 }
-.i-s-t-four {
+.i-four {
   background-image: url(../images/astronaut1.svg);
 }
 .section-two-list .heading-three {
