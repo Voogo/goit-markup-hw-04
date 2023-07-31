@@ -541,7 +541,24 @@ Fifth color: rgba(244, 244, 253, 1)
   border-radius: 50%;
   cursor: pointer;
 }
-
+/* .icon {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: top 50px left 10px, top 50px left 20px,
+    top 50px left 30px, top 50px left 40px;
+  background-color: var(--iris, #4d5ae5);
+  background-position: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url(../images/instagram2.svg), url(../images/twitter1.svg),
+    url(../images/facebook1.svg), url(../images/linkedin1.svg);
+} */
 .first-person {
   background-image: url(../images/instagram2.svg);
   background-image: url(../images/twitter1.svg);
