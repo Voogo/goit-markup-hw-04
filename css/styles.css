@@ -743,6 +743,29 @@ Fifth color: rgba(244, 244, 253, 1)
 
   display: inline-block;
 }
+
+.icons-list-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.icon-link-social-links {
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link-social-links:hover,
+.icon-link-social-links:focus {
+  background-color: #31d0aa;
+}
+
 /* Portfolio */
 
 /* Section Portfolio One */
