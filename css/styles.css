@@ -7,6 +7,7 @@
   --ocean: #404bbf;
   --white: #ffffff;
   --black: #000000;
+  --light-slate: #8e8f99;
   --box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -618,6 +619,38 @@ Fifth color: rgba(244, 244, 253, 1)
   background-image: url(../images/facebook1.svg);
   background-image: url(../images/linkedin1.svg);
 } */
+
+/* Section-Five */
+.section-five {
+  padding: 120px 0;
+}
+
+.logo-list {
+  display: flex;
+  gap: 24px;
+}
+
+.logo-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.logo-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-slate);
+}
+
+.logo-link:hover,
+.logo-link:focus {
+  background-color: var(--ocean);
+  color: var(--ocean);
+}
 
 /* Footer */
 
