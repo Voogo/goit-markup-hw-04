@@ -696,6 +696,14 @@ Fifth color: rgba(244, 244, 253, 1)
   color: var(--iris);
 }
 
+.footer-text {
+  width: 264px;
+
+  /* display: inline-block; */
+
+  color: var(--cloud);
+}
+
 .social-links-text {
   font-weight: 500;
   font-size: 16px;
@@ -703,12 +711,6 @@ Fifth color: rgba(244, 244, 253, 1)
   letter-spacing: 0.02em;
   color: var(--white);
   margin-bottom: 16px;
-
-  /* width: 264px; */
-
-  /* display: inline-block; */
-
-  /* color: var(--cloud); */
 }
 
 .f-list {
