@@ -570,6 +570,8 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .icon-instagram {
+  width: 40px;
+  height: 40px;
   fill: var(--cloud);
 }
 
