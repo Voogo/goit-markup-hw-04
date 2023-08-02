@@ -648,8 +648,12 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .logo-link:hover,
 .logo-link:focus {
-  background-color: var(--ocean);
+  border-color: var(--ocean);
   color: var(--ocean);
+}
+
+.logo-svg {
+  fill: currentColor;
 }
 
 /* Footer */
