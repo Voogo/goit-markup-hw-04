@@ -481,7 +481,7 @@ Fifth color: rgba(244, 244, 253, 1)
   gap: 24px;
 }
 
-.card-list .list {
+.card-items {
   box-shadow: var(--box-shadow);
 }
 .card-list.list li:first-child {
