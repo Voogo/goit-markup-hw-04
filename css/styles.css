@@ -654,15 +654,16 @@ Fifth color: rgba(244, 244, 253, 1)
   color: var(--light-slate);
 }
 
-.logo-link:hover {
-  border-color: var(--ocean) #404bbf;
-  color: var(--ocean) #404bbf;
+.logo-link:hover,
+.logo-link:focus {
+  border-color: var(--ocean), #404bbf;
+  color: var(--ocean), #404bbf;
 }
 
-.logo-link:focus {
+/* .logo-link:focus {
   border-color: var(--ocean) #404bbf;
   color: var(--ocean) #404bbf;
-}
+} */
 
 .logo-svg {
   fill: currentColor;
