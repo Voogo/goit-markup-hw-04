@@ -632,8 +632,12 @@ Fifth color: rgba(244, 244, 253, 1)
   gap: 24px;
 }
 
-.logo-item {
+.logo-list > li {
   width: calc((100% - 120px) / 6);
+}
+
+.logo-item {
+  /* width: calc((100% - 120px) / 6); */
   height: 88px;
 }
 
@@ -648,7 +652,11 @@ Fifth color: rgba(244, 244, 253, 1)
   color: var(--light-slate);
 }
 
-.logo-link:hover,
+.logo-link:hover {
+  border-color: var(--ocean);
+  color: var(--ocean);
+}
+
 .logo-link:focus {
   border-color: var(--ocean);
   color: var(--ocean);
@@ -822,6 +830,19 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .card-list li {
   width: calc((100% - 48px) / 3);
+}
+
+.link-class {
+  display: block;
+  /* box-shadow: var(--box-shadow); */
+}
+
+.link-class:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.link-class:focus {
+  box-shadow: var(--box-shadow);
 }
 
 .card-info {
