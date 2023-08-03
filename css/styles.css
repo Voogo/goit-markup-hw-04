@@ -633,16 +633,17 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .logo-list > li {
-  /* width: calc((100% - 120px) / 6); */
+  width: calc((100% - 120px) / 6);
+  height: 88px;
   /* width: calc((1158px - 120px) / 6); */
   /* 1158  1440 */
 }
 
-.logo-item {
+/* .logo-item {
   width: calc((100% - 120px) / 6);
   width: 1440px;
   height: 88px;
-}
+} */
 
 .logo-link {
   width: 100%;
