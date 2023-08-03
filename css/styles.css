@@ -653,13 +653,13 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .logo-link:hover {
-  border-color: var(--ocean);
-  color: var(--ocean);
+  border-color: var(--ocean) #404bbf;
+  color: var(--ocean) #404bbf;
 }
 
 .logo-link:focus {
-  border-color: var(--ocean);
-  color: var(--ocean);
+  border-color: var(--ocean) #404bbf;
+  color: var(--ocean) #404bbf;
 }
 
 .logo-svg {
