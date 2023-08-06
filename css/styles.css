@@ -561,34 +561,22 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .logo-link:hover {
-  border-color: #404bbf; /* change the border color when hovering */
+  border-color: #404bbf;
   color: #404bbf;
 }
 
 .logo-link:hover .logo-svg {
-  fill: #404bbf; /* change the icon color when hovering */
+  fill: #404bbf;
 }
 
 .logo-link:focus {
-  border-color: #404bbf; /* change the border color when focusing / background-color: #404bbf; / change the background color when focusing */
+  border-color: #404bbf;
   color: #404bbf;
 }
 
 .logo-link:focus .logo-svg {
-  fill: #404bbf; /* change the icon color when focusing */
+  fill: #404bbf;
 }
-
-/* .logo-link:hover .logo-svg {
-  border-color: var(--ocean), #404bbf;
-  color: var(--ocean), #404bbf;
-  fill: var(--ocean), #404bbf;
-}
-
-.logo-link:focus .logo-svg {
-  border-color: var(--ocean), #404bbf;
-  color: var(--ocean), #404bbf;
-  fill: var(--ocean), #404bbf;
-} */
 
 .logo-svg {
   fill: currentColor;
