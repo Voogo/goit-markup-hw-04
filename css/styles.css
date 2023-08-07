@@ -562,8 +562,8 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .logo-link:hover,
 .logo-link:focus {
-  border: 1px solid var(--ocean);
-  color: var(--ocean);
+  fill: var(--ocean);
+  border-color: var(--ocean);
 }
 
 .logo-svg {
