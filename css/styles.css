@@ -554,6 +554,7 @@ Fifth color: rgba(244, 244, 253, 1)
   height: 100%;
   border: 1px solid var(--light-slate);
   color: var(--light-slate);
+  fill: var(--light-slate);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -566,7 +567,7 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .logo-link:hover,
 .logo-link:focus {
-  border: 1px solid var(--ocean);
+  border-color: var(--ocean);
   color: var(--ocean);
   fill: var(--ocean);
 }
