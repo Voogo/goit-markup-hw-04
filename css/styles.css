@@ -552,23 +552,22 @@ Fifth color: rgba(244, 244, 253, 1)
 .logo-link {
   width: 100%;
   height: 100%;
-  border: 1px solid;
-  border-color: var(--light-slate);
+  border: 1px solid var(--light-slate);
+  color: var(--light-slate);
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--light-slate);
-}
-
-.logo-svg {
-  fill: currentColor;
 }
 
 .logo-link:hover,
 .logo-link:focus {
-  fill: var(--ocean);
-  border-color: var(--ocean);
+  border: 1px solid var(--ocean);
+  color: var(--ocean);
+}
+
+.logo-svg {
+  fill: currentColor;
 }
 
 /* Footer */
