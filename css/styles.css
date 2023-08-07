@@ -560,14 +560,14 @@ Fifth color: rgba(244, 244, 253, 1)
   color: var(--light-slate);
 }
 
-.logo-link:hover,
-.logo-link:focus {
-  fill: var(--ocean);
-  border-color: var(--ocean);
-}
-
 .logo-svg {
   fill: currentColor;
+}
+
+.logo-link:hover,
+.logo-link:focus {
+  color: var(--ocean);
+  border-color: var(--ocean);
 }
 
 /* Footer */
