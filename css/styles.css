@@ -103,7 +103,7 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 .button.primary:hover,
 .button.primary:focus {
-  color: var(--ocean);
+  color: var(--white);
   background-color: var(--ocean);
 }
 
