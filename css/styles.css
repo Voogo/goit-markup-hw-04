@@ -477,15 +477,6 @@ Fifth color: rgba(244, 244, 253, 1)
   margin: 0 10px;
 }
 
-/* .modal-checkbox {
-  width: 16px;
-  height: 16px;
-  stroke-width: 1px;
-  position: relative;
-  padding-left: 30px;
-  cursor: pointer;
-} */
-
 .modal-checkbox {
   position: relative;
   padding-left: 1px;
