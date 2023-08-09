@@ -62,7 +62,9 @@
           <h1 class="heading-one centered">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="button primary">Order Service</button>
+          <button type="button" class="button primary" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- Section 2 Funktion Info -->
@@ -340,42 +342,62 @@
           <h2 class="heading-two centered">Customers</h2>
           <ul class="logo-list list">
             <li class="logo-item">
-              <a href="" class="logo-link">
+              <a
+                href="https://www.example.com"
+                aria-label="Example"
+                class="logo-link"
+              >
                 <svg width="104" height="56" class="logo-svg">
                   <use href="./images/icons.svg#logo-one"></use>
                 </svg>
               </a>
             </li>
             <li class="logo-item">
-              <a href="" class="logo-link"
+              <a
+                href="https://www.example.com"
+                aria-label="Example"
+                class="logo-link"
                 ><svg width="104" height="56" class="logo-svg">
                   <use href="./images/icons.svg#logo-two"></use>
                 </svg>
               </a>
             </li>
             <li class="logo-item">
-              <a href="" class="logo-link"
+              <a
+                href="https://www.example.com"
+                aria-label="Example"
+                class="logo-link"
                 ><svg width="104" height="56" class="logo-svg">
                   <use href="./images/icons.svg#logo-three"></use>
                 </svg>
               </a>
             </li>
             <li class="logo-item">
-              <a href="" class="logo-link"
+              <a
+                href="https://www.example.com"
+                aria-label="Example"
+                class="logo-link"
                 ><svg width="104" height="56" class="logo-svg">
                   <use href="./images/icons.svg#logo-four"></use>
                 </svg>
               </a>
             </li>
             <li class="logo-item">
-              <a href="" class="logo-link">
+              <a
+                href="https://www.example.com"
+                aria-label="Example"
+                class="logo-link"
+              >
                 <svg width="104" height="56" class="logo-svg">
                   <use href="./images/icons.svg#logo-five"></use>
                 </svg>
               </a>
             </li>
             <li class="logo-item">
-              <a href="" class="logo-link"
+              <a
+                href="https://www.example.com"
+                aria-label="Example"
+                class="logo-link"
                 ><svg width="104" height="56" class="logo-svg">
                   <use href="./images/icons.svg#logo-six"></use>
                 </svg>
@@ -445,5 +467,36 @@
         </div>
       </div>
     </footer>
+    <!-- Modal Window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/modal.svg#cross"></use>
+          </svg>
+        </button>
+        <h3 class="modal-title">
+          Leave your contacts and we will call you back
+        </h3>
+
+        <form class="modal-form">
+          <div class="modal-label">
+            <p class="modal-text-sub">Name</p>
+            <div class="modal-row">
+              <svg class="modal-input-icon" width="18" height="18">
+                <use href="./images/modal.svg#user"></use>
+              </svg>
+              <input type="text" name="name" class="form-input" />
+            </div>
+          </div>
+        </form>
+        <p class="modal-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
+          maiores dolor rem. Veniam eligendi, quaerat fuga maxime omnis
+          blanditiis. Perspiciatis minus dignissimos at deleniti nobis.
+        </p>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
