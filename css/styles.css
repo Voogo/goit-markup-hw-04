@@ -333,6 +333,7 @@ Fifth color: rgba(244, 244, 253, 1)
 */
 
 .address {
+  margin-left: auto;
   font-style: normal;
   color: var(--slate);
 }
@@ -345,10 +346,6 @@ Fifth color: rgba(244, 244, 253, 1)
   display: block;
   margin-right: 40px;
   margin-left: auto;
-}
-
-.contact-list .item:first-child {
-  margin-left: 332px;
 }
 
 .contact-list .item:last-child {
