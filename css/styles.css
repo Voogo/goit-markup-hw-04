@@ -308,8 +308,8 @@ Fifth color: rgba(244, 244, 253, 1)
 .current {
   position: relative;
   color: var(--ocean);
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms var(--cubic); */
+  /*transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+  transition: color 250ms var(--cubic);
 }
 
 .current::after {
@@ -318,11 +318,11 @@ Fifth color: rgba(244, 244, 253, 1)
   width: 100%;
   height: 4px;
   border-radius: 2px;
+
   background-color: var(--ocean);
   bottom: -1px;
   position: absolute;
   transition: opacity 250ms var(--cubic);
-  /* transform: translateY(28px); */
 }
 
 .current:hover::after,
@@ -451,7 +451,6 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .modal-close-btn {
-  margin: -10px -5px 0 0;
   display: flex;
   fill: var(--slate);
   background-color: var(--cornflower);
@@ -463,11 +462,9 @@ Fifth color: rgba(244, 244, 253, 1)
   position: absolute;
   top: 24px;
   right: 24px;
-  transition: transform 250ms;
   border: 1px solid var(--black-a-01);
   padding: 0;
   cursor: pointer;
-
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -952,28 +949,16 @@ Fifth color: rgba(244, 244, 253, 1)
 .overlay {
   transform: translateY(100%);
   opacity: 0;
-  background: var(--iris, #4d5ae5);
+  background-color: var(--ocean);
   color: white;
-  padding: 20px;
+  padding: 40px 32px;
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: transform 250ms var(--cubic);
-}
-
-.service-text {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  padding: 40px 32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud);
-  background-color: var(--iris);
-  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 250ms var(--cubic);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(100%);
 }
