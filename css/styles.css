@@ -949,8 +949,8 @@ Fifth color: rgba(244, 244, 253, 1)
 .overlay {
   transform: translateY(100%);
   opacity: 0;
-  background-color: var(--ocean);
-  color: white;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
   padding: 40px 32px;
   position: absolute;
   top: 0;
