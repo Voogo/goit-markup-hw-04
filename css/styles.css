@@ -21,11 +21,9 @@
 body {
   background-color: var(--white);
   color: var(--slate);
-
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 16px;
-  /* line-height: 24px; */
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.32px;
@@ -75,13 +73,13 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .button {
   display: inline-block;
-  border: 1px solid transparent; /* not needed */
+  border: 1px solid transparent;
   border-radius: 4px;
   text-align: center;
 
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  /* line-height: 24px;  150% */
+
   line-height: 1.5;
   font-style: normal;
   font-weight: 500;
@@ -114,7 +112,6 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .button.secondary {
   padding: 12px 24px;
-  /* min-width: 116px; */
   border: 1px solid var(--cornflower);
 
   background-color: var(--cloud);
@@ -135,15 +132,12 @@ Fifth color: rgba(244, 244, 253, 1)
 .heading-one {
   margin-top: 0;
   margin-bottom: 48px;
-  /* background-color: red; */
 
   color: var(--white);
-  /* text-align: center; */
 
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  /* line-height: 60px; */
   letter-spacing: 1.12px;
 }
 /* Title 2 */
@@ -155,7 +149,6 @@ Fifth color: rgba(244, 244, 253, 1)
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  /* line-height: 40px; 111.111%  */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -166,7 +159,6 @@ Fifth color: rgba(244, 244, 253, 1)
 
   font-size: 20px;
   line-height: 1.2;
-  /* line-height: 24px; */
   font-weight: 500;
   letter-spacing: 0.4px;
 }
@@ -175,9 +167,6 @@ Fifth color: rgba(244, 244, 253, 1)
   text-align: center;
 }
 
-/* .paragraph-long { 
-  
-} */
 /* Section Four Main */
 
 .card-list > li {
@@ -198,11 +187,13 @@ Fifth color: rgba(244, 244, 253, 1)
   margin-left: auto;
   margin-right: auto;
   width: 1128px;
-  /* outline: 2px solid tomato; */
 }
 
-/* Page header */
-
+/*
+|================================
+|          Page header
+|================================
+*/
 .header {
   border-bottom: 1px solid var(--cornflower);
   display: flex;
@@ -219,14 +210,13 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 /*
-|======================== 
-|         Main 
-|========================
+|================================
+|              Main 
+|================================
 */
 
 .main-nav {
   display: flex;
-  /* align-items: center; */
 }
 
 .navigation {
@@ -246,12 +236,13 @@ Fifth color: rgba(244, 244, 253, 1)
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  /* line-height: 21px; */
+
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.logo:hover {
+.logo:hover,
+.logo:focus {
   color: var(--iris);
 }
 
@@ -264,16 +255,21 @@ Fifth color: rgba(244, 244, 253, 1)
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  /* line-height: 21px; */
+
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.logo-s:hover {
+.logo:hover .logo-s,
+.logo:focus .logo-s {
   color: var(--iris);
 }
 
-/* Site nav */
+/*
+|================================
+|           Site Nav 
+|================================
+*/
 .site-nav {
   display: flex;
 }
@@ -298,11 +294,10 @@ Fifth color: rgba(244, 244, 253, 1)
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--ocean, #404bbf);
-  /*  */
-  transition-property: property-name; /* Specify the properties to animate */
-  transition-duration: 0.3s; /* Set the duration of the transition */
-  transition-timing-function: ease-in-out; /* Set the timing function */
-  /*  */
+
+  transition-property: property-name;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .current {
@@ -334,9 +329,9 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 /*
-|======================== 
-|      Contact List 
-|========================
+|===============================
+|          Contact List 
+|===============================
 */
 
 .address {
@@ -380,9 +375,9 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 /*
-|===============================
+|===================================
 |      Section one Hero Image
-|===============================
+|===================================
 */
 .section-one {
   background-image: linear-gradient(
@@ -407,7 +402,6 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .container.one h1 {
-  /* display: block; */
   max-width: 496px;
   margin-right: auto;
   margin-left: auto;
@@ -563,7 +557,7 @@ Fifth color: rgba(244, 244, 253, 1)
 
 /*
 |===============================
-|      Section two
+|          Section two
 |===============================
 */
 
@@ -588,19 +582,6 @@ Fifth color: rgba(244, 244, 253, 1)
   content: "";
 }
 
-.i-one {
-  background-image: url(../images/antenna1.svg);
-}
-
-.i-two {
-  background-image: url(../images/clock1.svg);
-}
-.i-three {
-  background-image: url(../images/diagram1.svg);
-}
-.i-four {
-  background-image: url(../images/astronaut1.svg);
-}
 .section-two-list .heading-three {
   color: var(--navy-blue);
 }
@@ -638,7 +619,11 @@ Fifth color: rgba(244, 244, 253, 1)
   margin-bottom: 8px;
 }
 
-/* Section three */
+/*
+|================================
+|          Section three
+|================================
+*/
 .section-three {
   padding-bottom: 120px;
 }
@@ -721,7 +706,11 @@ Fifth color: rgba(244, 244, 253, 1)
   background-position: 50% 50%;
 }
 
-/* Section-Five */
+/*
+|================================
+|          Section-Five
+|================================
+*/
 .section-five {
   padding: 120px 0;
 }
@@ -778,17 +767,17 @@ Fifth color: rgba(244, 244, 253, 1)
   display: inline-block;
 }
 
-.footer {
+.footer-logo-s {
   color: var(--cloud);
 }
 
-.footer:hover {
+.logo:hover .footer-logo-s,
+.logo:focus .footer-logo-s {
   color: var(--iris);
 }
 
 .footer-text {
   width: 264px;
-
   color: var(--cloud);
 }
 
@@ -837,9 +826,17 @@ Fifth color: rgba(244, 244, 253, 1)
   background-color: #31d0aa;
 }
 
-/* Portfolio */
+/* 
+|=========================================
+|                Portfolio
+|=========================================
+ */
 
-/* Section Portfolio One */
+/* 
+|=========================================
+|          Portfolio Section One
+|=========================================
+ */
 .section-p-one {
   padding: 96px 0 120px 0;
 }
@@ -909,9 +906,9 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 /*
-|=========================
- Cards ovarlay hidden 
-|=========================
+|===============================
+|     Cards overlay hidden 
+|===============================
 */
 
 .cards-item,
